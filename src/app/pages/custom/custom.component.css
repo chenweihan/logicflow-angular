@@ -1,0 +1,21 @@
+.flowCanvas {
+    position: relative;
+    width: 100%;
+    /*height: 100vh;*/
+    margin: 0px;
+    display: flex;
+}
+
+.flowCanvas .container {
+    display: flex;
+    flex-grow: 1;
+    /*铺满剩余空间*/
+    border: 0px solid #ababab;
+    overflow: hidden;
+}
+
+.text {
+    margin:0 20px;
+    font-size: weight;
+    cursor: pointer;
+ }

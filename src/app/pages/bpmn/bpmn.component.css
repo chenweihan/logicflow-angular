@@ -1,0 +1,17 @@
+
+.box {
+    width:1000px;
+    height:600px;
+    position: relative;
+}
+
+.container {
+    width:1000px;
+    height:600px;
+}
+
+.text {
+    margin:0 20px;
+    font-size: weight;
+    cursor: pointer;
+ }

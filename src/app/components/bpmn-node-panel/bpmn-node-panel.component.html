@@ -1,0 +1,26 @@
+<div class="node-panel">
+    <div class="node-item" (mousedown)="openSelection()">
+        <div class="node-item-icon bpmn-selection"></div>
+        <span class="node-label">选区</span>
+    </div>
+    <div class="node-item" (mousedown)="addStartNode()">
+        <div class="node-item-icon bpmn-start"></div>
+        <span class="node-label">开始</span>
+    </div>
+    <div class="node-item" (mousedown)="addUserTask()">
+        <div class="node-item-icon bpmn-user"></div>
+        <span class="node-label">用户</span>
+    </div>
+    <div class="node-item" (mousedown)="addServiceTask()">
+        <div class="node-item-icon bpmn-service"></div>
+        <span class="node-label">系统</span>
+    </div>
+    <div class="node-item" (mousedown)="addGateWay()">
+        <div class="node-item-icon bpmn-gateway"></div>
+        <span class="node-label">网关</span>
+    </div>
+    <div class="node-item" (mousedown)="addEndNode()">
+        <div class="node-item-icon bpmn-end"></div>
+        <span class="node-label">结束</span>
+    </div>
+</div>

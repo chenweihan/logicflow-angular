@@ -1,0 +1,6 @@
+<p><span class="text">BMPN方式</span><span class="text" (click)="gotoBpmn()">goto bpmn</span><span class="text" (click)="gotoCustom()">goto custom</span></p>
+<div class="box">
+    <div class="container" #bpmn></div>
+    <app-bpmn-node-panel ng-if="lf" [lf]="lf"></app-bpmn-node-panel>
+    <app-bpnm-data-panel ng-if="lf" [lf]="lf"></app-bpnm-data-panel>
+</div>

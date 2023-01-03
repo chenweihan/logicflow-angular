@@ -1,0 +1,26 @@
+<div class="node-panel">
+    <div class="node-item" (mousedown)="openSelection()">
+        <div class="node-item-icon selection"></div>
+        <span class="node-label">选区</span>
+    </div>
+    <div class="node-item" (mousedown)="addStartNode()">
+        <div class="node-item-icon start"></div>
+        <span class="node-label">开始节点</span>
+    </div>
+    <div class="node-item" (mousedown)="addGeneralNode()">
+        <div class="node-item-icon general"></div>
+        <span class="node-label">普通节点</span>
+    </div>
+    <div class="node-item" (mousedown)="addConditionNode()">
+        <div class="node-item-icon condition"></div>
+        <span class="node-label">条件节点</span>
+    </div>
+    <div class="node-item" (mousedown)="addHtmlNode()">
+        <div class="node-item-icon html"></div>
+        <span class="node-label">Html节点</span>
+    </div>
+    <div class="node-item" (mousedown)="addEndNode()">
+        <div class="node-item-icon end"></div>
+        <span class="node-label">结束节点</span>
+    </div>
+</div>

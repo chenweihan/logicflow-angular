@@ -1,0 +1,10 @@
+.container {
+    height:600px;
+    width:1000px;
+}
+
+.text {
+   margin:0 20px;
+   font-size: weight;
+   cursor: pointer;
+}

@@ -1,0 +1,6 @@
+<p><span class="text">自定义节点方式</span><span class="text" (click)="gotoBpmn()">goto bpmn</span><span class="text" (click)="gotoCustom()">goto custom</span></p>
+<div class="flowCanvas">
+    <div class="container" #custom></div>
+    <app-custom-node-panel ng-if="lf" [lf]="lf"></app-custom-node-panel>
+    <app-bpnm-data-panel ng-if="lf" [lf]="lf"></app-bpnm-data-panel>
+</div>

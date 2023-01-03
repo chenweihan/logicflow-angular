@@ -1,0 +1,15 @@
+<div class="data-panel">
+    <div class="data-item" (mousedown)="downloadXml()" title="下载XML格式数据">
+        <div class="data-item-icon bpmn-xml"></div>
+    </div>
+    <div class="data-item" (mousedown)="downloadImage()" title="下载图片格式数据">
+        <div class="data-item-icon bpmn-img"></div>
+    </div>
+    <div class="data-item">
+        <input type="file" class="data-upload" (change)="uploadXml($event)" title="上传XML格式数据" />
+        <div class="data-item-icon bpmn-upload"></div>
+    </div>
+    <div class="data-item" (mousedown)="getGraphRawData()" title="下载JSON格式数据">
+        <div class="data-item-icon bpmn-look"></div>
+    </div>
+</div>
