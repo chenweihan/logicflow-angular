@@ -1,10 +1,6 @@
 # 项目是Angular版本LogicFlow的入门DEMO实例
 
-<<<<<<< HEAD
 ## 链接 Angular [demo](https://chenweihan.github.io/logicflow-angular/bpmn
-=======
-## 链接 Angular [demo] (https://chenweihan.github.io/logicflow-angular/bpmn)
->>>>>>> cc968851237743964730781f3f4dcac28125a876
 ### Angular版本LogicFlow的入门DEMO实例请参考
 - 码云 https://gitee.com/copperpeas/logicflow-angular
 - github  https://github.com/chenweihan/logicflow-angular
