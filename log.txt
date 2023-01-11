@@ -1,0 +1,4 @@
+发布当前angular项目到gitPage
+1:npm install -g angular-cli-ghpages
+2:ng build --base-href "https://chenweihan.github.io/logicflow-angular/"
+3:ngh
